@@ -1,7 +1,7 @@
 # Publication Extraction Web Data View Chrome Extension
 This is a subproject of Web Data View project, where you can visually select an area of publication text, or highlight the text, and then the Chrome extension will automatically organize the data into a web table, which can be copied to clipboard, or exported as an Excel file.
 
-Download the code from this page and follow the guildline [here](https://wiki.illinois.edu/wiki/download/attachments/586662115/WebDataViewInstallationGuide.pdf?version=2&modificationDate=1465568899000&api=v2) to install Web Data View Chrome extension.
+Download the code from this page and follow the guildline [here](https://wiki.illinois.edu/wiki/download/attachments/586662115/WebDataViewInstallationGuide.pdf?version=2&modificationDate=1465568899000&api=v2) to install Web Data View Chrome extension. Please note to not use the zip file mentioned in the guide. Instead using the code from this repository because it is more updated.
 
 For the current version, we recommend using "Extract Publications From Highlighted Text" as it is more stable. After installing the extension, do the following steps:
 * Highlight the publication text you want to extract. You can highlight one or more citations, but each citation must be complete. 
