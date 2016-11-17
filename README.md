@@ -11,6 +11,6 @@ For the current version, we recommend using "Extract Publications From Highlight
 * After the extraction is done, a table will pop up.
 * You can click on "Copy" button at the top of the pop-up window to copy the data to clipboard, which can be pasted to anywhere like Excel.
 * You can also select a few constraints that we suggested at the bottom of the pop-up window, and then click on button "Enforce constraints selected below" to enforce the constraints. The constraint enforcement may take 10 seconds to finish.
-* You can also right click to any column to let our system know that such field should not exist. After the right click, you will see a red constraint in the list of constraints, which write something like "title does not appear".
+* You can also right click to any column to let our system know that such field should not exist. After the right click, you will see a red constraint in the list of constraints, which write something like "title does not appear". After adding the constraint, you can also click on button "Enforce constraints selected below" to enforce it, and the system will move content from that field to other fields.
 
-Please note that our Chrome extension at this moment can operate only on non-HTTPS page. Most UIUC professor publication pages use non-HTTPS, but it is not the cases for other universities like UMass, UIC, etc.
+Please note that our Chrome extension at this moment can operate only on non-HTTPS page. Most UIUC professor publication pages use non-HTTPS, but it is not the cases for other universities like UMass, UIC, etc. 
