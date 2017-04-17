@@ -1,7 +1,7 @@
 # Publication Extraction Web Data View Chrome Extension
 This is a subproject of Web Data View project, where you can visually select an area of publication text, or highlight the text, and then the Chrome extension will automatically organize the data into a web table, which can be copied to clipboard, or exported as an Excel file.
 
-Download the code from this page and follow the guildline [here](https://wiki.illinois.edu/wiki/download/attachments/586662115/WebDataViewInstallationGuide.pdf?version=2&modificationDate=1465568899000&api=v2) to install Web Data View Chrome extension. Please note to not use the zip file mentioned in the guide. Instead using the code from this repository because it is more updated.
+Download the code from this page and follow the guildline [here](https://wiki.illinois.edu/wiki/download/attachments/586662115/WebDataViewInstallationGuide.pdf?version=2&modificationDate=1465568899000&api=v2) to install Web Data View Chrome extension. Please use the code from this repository instead of the zip file mentioned in the guide, because it is more updated.
 
 An example webpage to test: http://www.forwarddatalab.org/publications
 
@@ -18,4 +18,4 @@ You can test the Chrome extension on your own by installing the extension and do
 * You can also select a few constraints that we suggested at the bottom of the pop-up window, and then click on button "Enforce constraints selected below" to enforce the constraints. The constraint enforcement may take 10 seconds to finish.
 * You can also right click to any column to let our system know that such field should not exist. After the right click, you will see a red constraint in the list of constraints, which writes something like "title does not appear". After adding the constraint, you can also click on button "Enforce constraints selected below" to enforce it, and the system will move content from that field to other fields.
 
-Please note that our Chrome extension at this moment can operate only on non-HTTPS page. Most UIUC professor publication pages use non-HTTPS, but it is not the cases for other universities like UMass, UIC, etc. Finally, besides the Chrome extension, we run a server which actually runs data extraction algorithm, i.e., a modified version Conditional Random Fields. The server code is not published yet, but you can contact me at ltpham3 at illinois dot edu to ask for the server code.
+Please note that our Chrome extension at this moment can operate only on non-HTTPS page. Most UIUC professor publication pages use non-HTTPS, but it is not the cases for other universities like UMass, UIC, etc. Finally, besides the Chrome extension, we run a server which actually runs the data extraction algorithm, i.e., a modified version of Conditional Random Field. The server code is not published yet, but you can contact me at ltpham3 at illinois dot edu to ask for the server code.
